@@ -17,9 +17,9 @@ const ResumeContent = () => {
         <div className="resume-experience">
           <h2 className="section-title">Experience</h2>
           <div className="experience-item">
-            <h3 className="experience-title">Senior Advocate</h3>
+            <h3 className="experience-title">Advocate</h3>
             <p className="experience-details">
-              Law Firm XYZ | 2018 - Present
+             Sajha Law Firm  | 2023 - Present
             </p>
             <ul className="experience-description">
               <li>Represented clients in various civil and criminal cases.</li>
@@ -45,9 +45,9 @@ const ResumeContent = () => {
         <div className="resume-education">
           <h2 className="section-title">Education</h2>
           <div className="education-item">
-            <h3 className="education-degree">Juris Doctor (J.D.)</h3>
+            <h3 className="education-degree">Bachelor in Law (B.L)</h3>
             <p className="education-details">
-              Law School ABC | 2015 - 2018
+              Nepal Law Campus | 2015 - 2018
             </p>
           </div>
         </div>
