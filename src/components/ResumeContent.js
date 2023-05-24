@@ -58,4 +58,4 @@ const ResumeContent = () => {
   );
 };
 
-export default ResumeContent;
+export default Resume;
