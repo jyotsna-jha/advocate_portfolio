@@ -38,41 +38,53 @@ body {
   margin-bottom: 30px;
 }
 
-.resume-section-title {
+.section-title {
   font-size: 1.2rem;
   font-weight: bold;
   color: #000033;
   margin-bottom: 20px;
 }
 
-.resume-box {
-  background-color: #000033;
-  color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
+.summary-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience-item {
   margin-bottom: 20px;
-  margin-top: 20px;
-  transition: transform 0.3s ease;
 }
 
-.resume-box:hover {
-  transform: scale(1.05);
-}
-
-.resume-box-title {
+.experience-title {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.resume-box-subtitle {
+.experience-details,
+.education-details {
   font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: left; /* Align to the left */
+}
+
+.experience-description,
+.skills-list {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-degree {
+  font-size: 1.2rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.resume-box-content {
-  font-size: 1rem;
-  line-height: 1.5;
+.skills-list {
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -85,22 +97,30 @@ body {
     margin-bottom: 20px;
   }
 
-  .resume-box {
-    padding: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  .experience-description,
+  .skills-list {
+    margin-left: 15px;
   }
 
-  .resume-box-title {
+  .experience-item,
+  .education-item {
+    margin-bottom: 15px;
+  }
+
+  .experience-title,
+  .education-degree {
     font-size: 1rem;
     margin-bottom: 5px;
   }
 
-  .resume-box-subtitle {
+  .experience-details,
+  .education-details {
     font-size: 0.9rem;
     margin-bottom: 5px;
+    text-align: left; /* Align to the left */
   }
 
+  .summary-text,
   .resume-box-content {
     font-size: 0.9rem;
   }
@@ -145,41 +165,53 @@ body {
   margin-bottom: 30px;
 }
 
-.resume-section-title {
+.section-title {
   font-size: 1.2rem;
   font-weight: bold;
   color: #000033;
   margin-bottom: 20px;
 }
 
-.resume-box {
-  background-color: #000033;
-  color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
+.summary-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience-item {
   margin-bottom: 20px;
-  margin-top: 20px;
-  transition: transform 0.3s ease;
 }
 
-.resume-box:hover {
-  transform: scale(1.05);
-}
-
-.resume-box-title {
+.experience-title {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.resume-box-subtitle {
+.experience-details,
+.education-details {
   font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: left; /* Align to the left */
+}
+
+.experience-description,
+.skills-list {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-degree {
+  font-size: 1.2rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.resume-box-content {
-  font-size: 1rem;
-  line-height: 1.5;
+.skills-list {
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -192,22 +224,30 @@ body {
     margin-bottom: 20px;
   }
 
-  .resume-box {
-    padding: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  .experience-description,
+  .skills-list {
+    margin-left: 15px;
   }
 
-  .resume-box-title {
+  .experience-item,
+  .education-item {
+    margin-bottom: 15px;
+  }
+
+  .experience-title,
+  .education-degree {
     font-size: 1rem;
     margin-bottom: 5px;
   }
 
-  .resume-box-subtitle {
+  .experience-details,
+  .education-details {
     font-size: 0.9rem;
     margin-bottom: 5px;
+    text-align: left; /* Align to the left */
   }
 
+  .summary-text,
   .resume-box-content {
     font-size: 0.9rem;
   }
