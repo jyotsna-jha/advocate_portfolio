@@ -8,25 +8,21 @@ import ContactContent from "../components/ContactContent";
 import ServicesContent from "../components/ServicesContent";
 import ResumeContent from "../components/ResumeContent";
 
-
-
-
-
 const Home = () => {
   return (
     <section id="hero-section">
-      <Navbar/>
-  
-    <HeroImg/>  
-    <HeroImg2/>
-   <Testimonials/>
-   <ResumeContent/>
-   <ServicesContent/>
-   
-   <ContactContent/>
-      <Footer/>
+      <Navbar />
+
+      <HeroImg />
+      <HeroImg2 />
+      <Testimonials />
+      <ResumeContent />
+      <ServicesContent />
+
+      <ContactContent />
+      <Footer />
     </section>
   );
-}
+};
 
 export default Home;

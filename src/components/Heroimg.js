@@ -13,7 +13,7 @@ const HeroImg = () => {
         <div className="text-container">
           <h1>Advocate</h1>
           <h2>Balram Jha</h2> {/* Replace with your desired text */}
-          <p>I am a professional Advocate from Nepal.</p>
+          <p>I am a professional Advocate from Nepal.</p> 
           <div className="button-container">
             <Link
               to="services-section"
