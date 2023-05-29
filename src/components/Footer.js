@@ -18,9 +18,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="address">
-          <p>Your Law Firm</p>
-          <p>123 Main Street</p>
-          <p>City, State ZIP</p>
+          <p>Chandragiri-15</p>
+          <p>Kathmandu,Nepal</p>
+          {/*<p>Nepal</p> */}
         </div>
       </div>
       <p className="rights">All rights reserved &copy; 2023</p>
@@ -29,3 +29,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

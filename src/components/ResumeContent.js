@@ -50,7 +50,7 @@ const ResumeContent = () => {
           <h2 className="section-title">Education</h2>
           <div className="education-item">
             <h3 className="education-degree">Bachelor in Law (B.L)</h3>
-            <p className="education-details">Nepal Law Campus | 2015 - 2018</p>
+            <p className="education-details">Nepal Law Campus</p>
           </div>
         </div>
       </div>

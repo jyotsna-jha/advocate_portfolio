@@ -8,18 +8,14 @@ const Contact = () => {
       <div className="contact-info-container">
         <p className="contact-info">Phone: +977 9852090365</p>
         <p className="contact-info">Email: advbalram365@gmail.com</p>
-        <a
-          href="https://docs.google.com/forms/d/e/xxxxxxxxxxxxx/viewform"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-button"
-        >
-          Get in Contact
-        </a>
+        <p className="contact-info">Address: Chandragiri-15</p>
+        <p>Kathmandu, Nepal</p>
       </div>
     </section>
   );
 };
 
 export default Contact;
+
+
 

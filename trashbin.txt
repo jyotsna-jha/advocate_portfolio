@@ -1,3 +1,50 @@
+<a
+          href="https://docs.google.com/forms/d/e/xxxxxxxxxxxxx/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-button"
+        >
+          Get in Contact
+        </a>
+ 
+ <a
+          href="https://docs.google.com/forms/d/e/xxxxxxxxxxxxx/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-button"
+        >
+          Get in Contact
+        </a>
+ 
+<li>
+          <Link
+            activeClass="active"
+            to="resume-section"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => setClick(false)}
+          >
+            Resume
+          </Link>
+        </li>
+       
+ 
+ <li>
+          <Link
+            activeClass="active"
+            to="about-section"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => setClick(false)}
+          >
+            About
+          </Link>
+        </li>
+ 
 .about2 {
   display: flex;
   align-items: center;
