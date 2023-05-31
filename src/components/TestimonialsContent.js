@@ -18,7 +18,7 @@ const Testimonials = () => {
         <div className="testimonial-box">
           <div className="testimonial-content">
             <p className="testimonial-text">
-              Balram Jha is a highly competent and compassionate advocate lawyer. He listened attentively to my concerns, provided clear explanations of the legal process, and fought diligently for my rights. His strategic approach, attention to detail, and effective communication made me feel confident and supported throughout. I am grateful for hir expertise and would recommend him without hesitation.
+              Balram Jha is a highly competent and compassionate advocate lawyer. He listened attentively to my concerns, provided clear explanations of the legal process, and fought diligently for my rights. His strategic approach, attention to detail, and effective communication made me feel confident and supported throughout. I am grateful for his expertise and would recommend him without hesitation.
               <span className="testimonial-name">- Dilip shah</span>
             </p>
           </div>
