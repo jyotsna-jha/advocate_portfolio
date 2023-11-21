@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -12,12 +13,13 @@ const About = () => {
           src="/assets/image1.jpg"
           alt="Alumni Image"
           className="w-64 h-64 object-cover rounded-full mb-4 sm:mr-8"
+          
         />
         <p className="text-base text-justify text-gray-800 font-poppins max-w-5xl mx-auto sm:whitespace-normal">
           As an advocate, my mission is to fight for justice and be a reliable
           companion for my clients. With my experience, I understand the legal
           system inside out and the challenges people face. I approach every
-          case with compassion, actively listening to my clients' needs. By
+          case with compassion, actively listening to my clients&apos; needs. By
           building strong relationships based on trust, I guide them through
           their legal journey with unwavering support. I continuously learn and
           stay updated on legal developments to provide the best possible

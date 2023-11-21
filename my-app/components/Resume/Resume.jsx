@@ -21,7 +21,7 @@ const Resume = () => {
             Experienced advocate with a strong background in handling legal
             cases and providing legal advice. Skilled in client representation,
             legal research, and dispute resolution. Committed to upholding
-            justice and advocating for clients' rights.
+            justice and advocating for clients&apos; rights.
           </p>
         </section>
 
