@@ -9,10 +9,12 @@ const About = () => {
         A little About Me
       </h2>
       <div className="bg-gradient-to-r from-white to-red-100 rounded-lg shadow-md p-10 mt-8 flex flex-col items-center sm:flex-row">
-        <img
+        <Image
           src="/assets/image1.jpg"
           alt="Alumni Image"
           className="w-64 h-64 object-cover rounded-full mb-4 sm:mr-8"
+          width={100}
+          height={100}
           
         />
         <p className="text-base text-justify text-gray-800 font-poppins max-w-5xl mx-auto sm:whitespace-normal">
